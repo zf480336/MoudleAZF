@@ -12,8 +12,8 @@ Pod::Spec.new do |spec|
                    DESC
 
   spec.homepage     = "https://github.com/zf480336/MoudleAZF"
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "lxy" => "512000172@qq.com" }
   spec.platform     = :ios
   spec.source       = { :git => "https://https://github.com/zf480336/MoudleAZF.git", :tag => "#{spec.version}" }
