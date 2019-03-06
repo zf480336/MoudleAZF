@@ -11,12 +11,12 @@ Pod::Spec.new do |spec|
 详细描述
                    DESC
 
-  spec.homepage     = "http://zfff.com"
+  spec.homepage     = "https://github.com/zf480336/MoudleAZF"
   spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "lxy" => "512000172@qq.com" }
   spec.platform     = :ios
-  spec.source       = { :git => "https://github.com/ModuleAZF.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://https://github.com/zf480336/MoudleAZF.git", :tag => "#{spec.version}" }
   spec.source_files  = "ModuleAZF/src/**/*.{h,m}"
   spec.exclude_files = "ModuleAZF/Exclude"
   spec.public_header_files = "ModuleAZF/src/**/*.h"
